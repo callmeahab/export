@@ -36,7 +36,7 @@ defmodule Export.Mixfile do
 
   defp deps() do
     [
-      {:erlport, "~> 0.9"},
+      {:erlport, github: "callmeahab/erlport"},
       {:ex_doc, ">= 0.0.0", only: :dev},
     ]
   end
